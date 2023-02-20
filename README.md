@@ -111,6 +111,8 @@ sudo apt-get install libopencv-dev
 sudo apt-get install libatlas-base-dev
 pip3 install virtualenv Pillow numpy scipy matplotlib
 pip3 install opencv-python opencv-contrib-python
+On Ubuntu 21.04 had to install qt
+sudo apt-get install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
 ```
 
 ### 4.2. Install TensorFlow Lite (optional; only if you want to use the neural network example)
